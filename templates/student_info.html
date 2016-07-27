@@ -11,8 +11,8 @@
 <ul>
     {%for row in rows%}
         <li>
-            Grade:   {{row[1]}} <br>
-            Project: {{row[0]}} <br>
+            Grade: {{row[1]}} <br>
+            <a href = "/project?title={{row[0]}}"> Project: {{row[0]}}</a> <br>
         </li>
 
     {%endfor%}
